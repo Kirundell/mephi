@@ -1,3 +1,3 @@
-# MEPHI Data Science Projects
+# MEPHI
 
 Репозиторий для сдачи домашних работ.
