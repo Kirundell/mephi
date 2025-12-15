@@ -9,16 +9,21 @@
 - **Метрика качества:** mAP@0.5 = 0.902
 
 ## 📁 Структура проекта
-practice/  
-├── data/                    # Данные  
-│   ├── test/         
-│   ├── train/   
-│   ├── valid/   
-│   └── data.yaml  
-├── notebooks/              # Jupyter ноутбуки обучения и тестирования   
-│   ├── example.ipynb   
-│   └── train.ipynb  
-└── README.md           
+```plaintext
+practice/
+├── data/                   # Данные 
+│   ├── test/
+│   ├── train/
+│   ├── valid/
+│   └── data.yaml
+├── notebooks/              # Jupyter ноутбуки обучения и тестирования  
+│   ├── example.ipynb
+│   └── train.ipynb
+├── test_images/            # Примеры работы модели 
+│   ├── output1.png
+│   └── output2.png
+└── README.md
+```
 
 ## 🖼️ Примеры работы модели
 ![pic1](test_images/output1.png)
