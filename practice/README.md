@@ -18,8 +18,6 @@ practice/
 ├── notebooks/              # Jupyter ноутбуки обучения и тестирования   
 │   ├── example.ipynb   
 │   └── train.ipynb  
-├── weights/                # Веса модели           
-│   └── best.pt  
 └── README.md           
 
 ## 🖼️ Примеры работы модели
