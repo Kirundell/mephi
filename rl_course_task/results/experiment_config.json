@@ -1,0 +1,36 @@
+{
+  "train_seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "train_steps": 100000,
+  "checkpoint_every": 10000,
+  "train_slip": {
+    "dry": 0.0,
+    "noisy": 0.15
+  },
+  "test_slip": [
+    0.0,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.3,
+    0.4
+  ],
+  "alpha": 0.12,
+  "gamma": 0.98,
+  "epsilon_start": 0.6,
+  "epsilon_end": 0.05,
+  "epsilon_decay_fraction": 0.8,
+  "max_episode_steps": 80,
+  "validation_seed_base": 1000000,
+  "test_seed_base": 2000000,
+  "episodes_per_start": 20,
+  "validation_episodes_per_start": 5,
+  "primary_test_slip": 0.3,
+  "animation_episode": 0
+}

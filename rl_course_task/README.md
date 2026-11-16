@@ -8,9 +8,8 @@
 
 Основной отчёт с кодом и сохранёнными результатами:
 [Шилов_КМ_RL_course_task.ipynb](Шилов_КМ_RL_course_task.ipynb).
-Ноутбук полностью выполнен в `conda diplom`, Python 3.11.11. Эксперимент занимает
-около **одной минуты** на использованном компьютере; время на другом CPU будет отличаться.
-Точное время записано в [results/provenance.json](results/provenance.json).
+Ноутбук выполнен на Python 3.11.11. Эксперимент занимает
+около **одной минуты** на моем компьютере. Точное время записано в [results/provenance.json](results/provenance.json).
 
 ## Постановка и гипотеза
 
@@ -166,25 +165,3 @@ python -m unittest -v test_environment.py
 Повторный запуск перезаписывает `results/`; для сравнения разных протоколов заранее
 сохраните предыдущую копию. Отображённые числа относятся к приложенному протоколу.
 
-## Файлы для GitHub
-
-- `Шилов_КМ_RL_course_task.ipynb` - выполненный отчёт и полный код обучения и оценки.
-- `warehouse_env.py` - собственная среда Gymnasium.
-- `experiment_config.json` - параметры и seed.
-- `test_environment.py` - шесть проверок механики среды и её интерфейса.
-- `requirements.txt` - компактные зависимости с версиями.
-- `results/` - реальные таблицы, все эпизоды теста, Q-таблицы, графики, GIF, выводы и снимок `pip freeze --exclude-editable`.
-- `task_info.md` - исходное условие без изменений.
-
-В репозиторий нужно загрузить всю эту папку с `results/`. Для сдачи достаточно
-одной публичной ссылки на репозиторий. GitHub может не воспроизводить GIF внутри
-ноутбука; отдельная анимация доступна в README и `results/behavior.gif`.
-
-## Источники
-
-- [Watkins, Dayan (1992), Q-learning](https://www.gatsby.ucl.ac.uk/~dayan/papers/cjch.pdf).
-- [Gymnasium: создание среды](https://gymnasium.farama.org/introduction/create_custom_env/).
-- [Farama: terminated и truncated](https://farama.org/Gymnasium-Terminated-Truncated-Step-API).
-
-Карта родственна учебной идее Cliff Walking. Динамика привода, несколько наборов
-стартов, протокол переноса и анализ зависимости от шума реализованы для этой работы.

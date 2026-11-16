@@ -1,0 +1,9 @@
+{
+  "python": "3.11.11",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "seconds_total": 61.32184740000048,
+  "environment_sha256": "4db77e4d4d7912aedc9f7f3cdb716c132ca092643c07e1e62285898d94bee146",
+  "config_sha256": "90ee6c4dbc355eb8304d321a2294776bc64ed962a3b64b3d4d2337a11274a600",
+  "training_transitions_total": 1000000,
+  "test_episodes_total": 10920
+}

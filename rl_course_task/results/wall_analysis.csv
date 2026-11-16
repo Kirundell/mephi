@@ -1,0 +1,6 @@
+seed,action,success_without_noise,steps_without_noise
+11,влево,0,80
+23,вверх,1,14
+37,вверх,1,14
+53,вверх,1,14
+71,вверх,1,14
